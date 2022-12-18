@@ -1,11 +1,209 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>SIGN UP</title>
-</head>
-<body>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content=" a food delivery system">
+    <meta name="author" content="willfred, i forgot the other name, and web dev zambia contibutors">
+    <meta name="generator" content="web dev zambia">
+   <title>sign up for matebeto</title>
 
-</body>
+    
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="../dist/css/bootstrap.bundle.css" rel="stylesheet">
+<link href="../dist/css/bootstrap-utilities.css" rel="stylesheet">
+
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+        
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+    </style>
+
+    
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../style/signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center d-block">
+    <header style="margin-top: 0;">
+      <button class="btn btn-outline-light" style="margin-top: 0;margin-right: 90vw;">HOME</button>
+      <button class="btn btn-info btn-outline-light" style="margin-top: 0;margin-left: 90vw;">LOGIN</button>
+    </header>
+    
+<main class="form-signin" >
+   <form class="needs-validation" novalidate>
+
+    <h1 class="h1 text-white" style="font-family: open;">Matebeto</h1>
+    <h1 class="h3 mb-3 fw-normal text-light" style="font-family: rubik;">Please sign in</h1>
+      <div class="row g-3">
+            <div class="col-sm-6">
+              <label for="firstName" class="form-label text-light">First name</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid first name is required.
+              </div>
+            </div>
+
+            <div class="col-sm-6">
+              <label for="lastName" class="form-label text-light">Last name</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+              <div class="invalid-feedback">
+                Valid last name is required.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="username" class="form-label text-light">Username</label>
+              <div class="input-group has-validation">
+                <span class="input-group-text">@</span>
+                <input type="text" class="form-control text-light" id="username" placeholder="Username" required>
+              <div class="invalid-feedback">
+                  Your username is required.
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="email" class="form-label text-light">Email <span class="text-muted">(Optional)</span></label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+              <div class="invalid-feedback">
+                Please enter a valid email address for updates.
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="address" class="form-label text-light">password</label>
+              <input type="text" class="form-control" id="address" placeholder="Password" required>
+              <div class="invalid-feedback">
+                Please enter a 6 digit password
+              </div>
+            </div>
+
+            <div class="col-12">
+              <label for="password2" class="form-label text-light">Confirm password </label>
+              <input type="text" class="form-control" id="password2" placeholder=" confirm Password">
+              <div class="invalid-feedback">
+                the passwords dont match
+              </div>
+            </div>
+
+            <div class="col-md-5">
+              <label for="country" class="form-label">Country</label>
+              <select class="form-select" id="country" required>
+                <option value="">Choose...</option>
+                <option>zambia</option>
+                <option>zimbabwe</option>
+                <option>south Africa</option>
+                <option>covid-19</option>
+              </select>
+              <div class="invalid-feedback">
+                Please select a valid country.
+              </div>
+            </div>
+
+      <label>
+        <input type="checkbox" value="remember-me"> stay loged in on this device</label>
+    </div>
+
+          <hr class="my-4">
+    <button class="w-100 btn btn-lg btn-info btn-outline-light" type="submit">Sign in</button>
+    
+    
+  </form>
+  <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
+</main>
+
+<script type="text/javascript">
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+(() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+
+</script>
+<script src="../dist/js/bootstrap.js"></script>
+    <script src="../dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../dist/js/bootstrap.bundle.js"></script>
+  </body>
 </html>

@@ -92,7 +92,7 @@
           <a class="nav-link active" aria-current="page" href="#">     <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"/></svg>Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#"><svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"/></a>
+          <a class="nav-link" href="#" id="themebtn"><svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"/></a>
         </li>
         
       </ul>
@@ -176,7 +176,7 @@
               <img src="images/1.jpg" class="img" style="">
 <!-- find card images for big bite -->
               <div class="card-body">
-                <h5 class="card-title" style="font-family: open;">Big Bite</h5>
+                <h5 class="card-title" style='font-family: open;'>Big Bite</h5>
              <p><a class="btn btn-lg btn-warning btn-outline-light" href="#">order</a></p>
               </div>
             </div>
@@ -192,7 +192,7 @@
     <h2 class="pb-2 border-bottom" id="t1">Cartgories</h2>
 
     <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-      <div class="col">
+      <div id="one" class="col" onclick="local()"> 
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/6.jpg'); background-position: center; object-fit: cover; width:27vw;">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"style="font-family: open;">Local</h3>
@@ -201,7 +201,7 @@
         </div>
       </div>
 
-      <div class="col">
+      <div id="two"class="col" onclick="meaty()">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/5(2).jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold"style="font-family: open;">meaty</h3>
@@ -210,7 +210,7 @@
           </div>
         </div>
       </div>
-            <div class="col">
+            <div id="three" class="col" onclick="veg()">
         <div class="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg" style="background-image: url('images/7.jpg');">
           <div class="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
             <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold" style="font-family: open;">Vegetables</h3>
@@ -221,6 +221,10 @@
       </div>
 
 
+</section>
+<section id="info" >
+  <p id="dadada">
+  just click on the cartgories to see some jsx.Did you know micheal jackson was an alien from outer space</p>
 </section>
 
 

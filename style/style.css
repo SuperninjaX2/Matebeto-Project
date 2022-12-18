@@ -68,3 +68,23 @@ footer{
   text-decoration: none;
   text-emphasis: none;
 }
+/*i got  bored but thanks for wreading my comments X2*/
+/*bhhh am swimming on life babe /
+/* am jobless */
+/*if anybody sees this help*/
+#dadada:hover{
+  animation-name: flashing;
+  color: #000000;
+  animation-duration: 6s;
+  animation-timing-function: ease-in;
+  font-size: 16px;
+}
+@keyframes flashing{
+  from{
+    font-size: 16px;
+
+  }
+  to{
+    font-size: 60px;
+  }
+}
