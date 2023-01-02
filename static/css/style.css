@@ -62,7 +62,7 @@
     cursor: pointer;
 }
 #authenticate-direct {
-    background-image: url('/static/img/zambezi-falls-large.jpg');
+    background-image: url('../img/zambezi-falls-large.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
